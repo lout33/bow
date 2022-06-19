@@ -20,7 +20,7 @@ const upVector = new THREE.Vector3(0, 1, 0);
 const yN90Quaternion = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), -Math.PI/2);
 const y180Quaternion = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), Math.PI);
 const smallUpQuaternion = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 0, 0), 0.03*Math.PI);
-const gravity = new THREE.Vector3(0, -9.8, 0);
+const gravity = new THREE.Vector3(0, -100, 0);
 const emptyArray = [];
 const fnEmptyArray = () => emptyArray;
 const arrowLength = 0.3;
